@@ -8,7 +8,8 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1
             ]
         }
     ],
@@ -28,9 +29,17 @@
                 0.45672866702079773
             ],
             "translation" : [
-                -0.16957157850265503,
-                0.31697627902030945,
-                -8.467670440673828
+                -0.10827065259218216,
+                0.20000000298023224,
+                -7.875094890594482
+            ]
+        },
+        {
+            "name" : "\u30a8\u30f3\u30d7\u30c6\u30a3",
+            "translation" : [
+                0,
+                0,
+                -5.674351692199707
             ]
         }
     ],
@@ -72,9 +81,9 @@
                     "output" : 7
                 },
                 {
-                    "input" : 4,
+                    "input" : 8,
                     "interpolation" : "LINEAR",
-                    "output" : 8
+                    "output" : 9
                 }
             ]
         }
@@ -164,9 +173,9 @@
         {
             "bufferView" : 4,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 447,
             "max" : [
-                16.666666666666668
+                18.625
             ],
             "min" : [
                 0.041666666666666664
@@ -176,7 +185,7 @@
         {
             "bufferView" : 5,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 447,
             "type" : "VEC3"
         },
         {
@@ -200,7 +209,19 @@
         {
             "bufferView" : 8,
             "componentType" : 5126,
-            "count" : 400,
+            "count" : 490,
+            "max" : [
+                20.416666666666668
+            ],
+            "min" : [
+                0.041666666666666664
+            ],
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5126,
+            "count" : 490,
             "type" : "VEC4"
         }
     ],
@@ -227,34 +248,39 @@
         },
         {
             "buffer" : 0,
-            "byteLength" : 1600,
+            "byteLength" : 1788,
             "byteOffset" : 23648
         },
         {
             "buffer" : 0,
-            "byteLength" : 4800,
-            "byteOffset" : 25248
+            "byteLength" : 5364,
+            "byteOffset" : 25436
         },
         {
             "buffer" : 0,
             "byteLength" : 1480,
-            "byteOffset" : 30048
+            "byteOffset" : 30800
         },
         {
             "buffer" : 0,
             "byteLength" : 4440,
-            "byteOffset" : 31528
+            "byteOffset" : 32280
         },
         {
             "buffer" : 0,
-            "byteLength" : 6400,
-            "byteOffset" : 35968
+            "byteLength" : 1960,
+            "byteOffset" : 36720
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7840,
+            "byteOffset" : 38680
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 42368,
-            "uri" : "donburako1.bin"
+            "byteLength" : 46520,
+            "uri" : "donburako2.bin"
         }
     ]
 }
